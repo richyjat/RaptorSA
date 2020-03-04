@@ -32,10 +32,10 @@ exports.run = (client, message, args) =>{
 
     let serverembed = new Discord.RichEmbed()
         .setColor("#9400D3")
-        .setAuthor(`RaptorSA`, client.user.displayAvatarURL)
+        .setAuthor(`Lazy_But`, client.user.displayAvatarURL)
         .addField(`Version`,`1.0`, true)
         .addField(`Library`,`Discord.js` , true)
-        .addField(`Creator`,`Cramenorn#0484`, true)
+        .addField(`Creator`,`Lazy_But#4312`, true)
         .addField(`Servers`, `${client.guilds.size}`, true)
         .addField(`Users`, `${client.users.size}`, true)
         .addField(`Invite`, `[Invite RaptorSA](https://discordapp.com/oauth2/authorize?client_id=467684534624976896&scope=bot&permissions=26)`, true)
