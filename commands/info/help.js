@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     if(command[1] == undefined){
         const embed = new Discord.RichEmbed()
             .setColor("#FF4500")
-            .addField("Commands",`You can view commands at [github.com](https://github.com/Cramenorn/RaptorSA#commands)`);
+            .addField("Commands",`You can view commands at [github.com](https://github.com/super-bot-s/superbot/blob/master/README.md)`);
         message.channel.send(embed);    
     }
 
